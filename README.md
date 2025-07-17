@@ -3,7 +3,6 @@
 This repository contains the analysis code associated with the manuscript:
 
 > **Parent-of-origin effects in Alzheimer’s liability dissociate neurocognitive and cardiovascular traits in at-risk individuals**  
-> Currently under revision at *PLOS Biology*
 
 ---
 
