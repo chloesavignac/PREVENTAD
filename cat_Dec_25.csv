@@ -1,0 +1,258 @@
+,phens,cat,new_names
+0,AD8_total_score,cognitive,Functional disability
+1,1_judgment_problems,cognitive,Judgment problems
+2,2_less_interest,cognitive,Loss of interest
+3,3_repeat,cognitive,Repetitions
+4,4_trouble_learning_tool,cognitive,Trouble using tools
+5,5_forget_month_year,cognitive,Forgets month or year
+6,6_trouble_financial_affairs,cognitive,Trouble with finances
+7,7_trouble_appointments,cognitive,Forgets appointments
+8,8_daily_memory_trouble,cognitive,Daily memory problems
+9,APS_score,disease_progression,Alzheimer Progression Score
+10,diagnosed_impairment,neurosensory,Diagnosed hearing impairment
+11,hearing_aid,neurosensory,Wears hearing aid
+12,subjective_hearing_impairment,neurosensory,Subjective hearing impairment
+13,subjective_processing_impairment,neurosensory,Subjective processing impairment
+14,500_hz_left,neurosensory,Can hear at 500 hz (left)
+15,500_hz_right,neurosensory,Can hear at 500 hz (right)
+16,1000_hz_left,neurosensory,Can hear at 1000 hz (left)
+17,1000_hz_right,neurosensory,Can hear at 1000 hz (right)
+18,4000_hz_left,neurosensory,Can hear at 4000 hz (left)
+19,4000_hz_right,neurosensory,Can hear at 4000 hz (right)
+20,dsi_left,neurosensory,Dichotic sentence identification (left)
+21,dsi_right,neurosensory,Dichotic sentence identification (right)
+22,dsi_right_left,neurosensory,Right hear advantage
+23,worse_ear_dsi,neurosensory,Worst ear score
+24,worse_ear_minus10db,neurosensory,Worst ear score -10dB
+25,Systolic_blood_pressure,cardiovascular,Systolic BP
+26,Diastolic_blood_pressure,cardiovascular,Diastolic BP
+27,Pulse,cardiovascular,Pulse
+28,Weight,cardiovascular,Weight
+29,tau,disease_progression,CSF tau levels
+30,ptau,disease_progression,CSF ptau levels
+31,Amyloid_beta_1_42,disease_progression,CSF amyloid-B-1-42 levels
+32,ApoE,disease_progression,CSF APOE levels
+33,G_CSF,disease_progression,CSF G-CSF levels
+34,IL_15,disease_progression,CSF IL-15 levels
+35,IL_8,disease_progression,CSF IL-8 levels
+36,VEGF,disease_progression,CSF VEGF levels
+37,PCSK9,disease_progression,CSF PCSK9 levels
+38,hba1c_value,disease_progression,Blood HbA1c levels
+39,tsh_value,disease_progression,Blood TSH levels
+40,b12_value,disease_progression,Blood B12 levels
+41,total_cholesterol_value,cardiovascular,Total cholesterol
+42,HDL_value,cardiovascular,HDL cholesterol
+43,LDL_value,cardiovascular,LDL cholesterol
+44,Candidate_Age,demographics,Age
+45,immediate_memory_index_score,cognitive,Immediate memory score
+46,visuospatial_constructional_index_score,cognitive,Visuospatial score
+47,language_index_score,cognitive,Language score
+48,attention_index_score,cognitive,Attention score
+49,delayed_memory_index_score,cognitive,Delayed memory score
+50,total_scale_index_score,cognitive,RBANS total score
+51,immediate_memory_index_score_60_69,cognitive,Immediate memory score adjusted 60-69
+52,visuospatial_constructional_index_score_60_69,cognitive,Visuospatial score adjusted 60-69
+53,language_index_score_60_69,cognitive,Language score adjusted 60-69
+54,attention_index_score_60_69,cognitive,Attention score adjusted 60-69
+55,delayed_memory_index_score_60_69,cognitive,Delayed memory score adjusted 60-69
+56,total_scale_index_score_60_69,cognitive,RBANS total score adjusted 60-69
+57,list_learning_trial1_score,cognitive,List learning: trial 1 score
+58,list_learning_trial2_score,cognitive,List learning: trial 2 score
+59,list_learning_trial3_score,cognitive,List learning: trial 3 score
+60,list_learning_trial4_score,cognitive,List learning: trial 4 score
+61,list_learning_total_score,cognitive,List learning total score
+62,story_memory_score,cognitive,Story memory score
+63,figure_copy_drawing_score,cognitive,Figure copy drawing score
+64,figure_copy_placement_score,cognitive,Figure copy placement score
+65,figure_copy_total_score,cognitive,Figure copy total score
+66,line_orientation_score,cognitive,Line orientation score
+67,picture_naming_score,cognitive,Picture naming score
+68,semantic_fluency_score,cognitive,Semantic fluency score
+69,digit_span_score,cognitive,Digit span total score
+70,digit_span,cognitive,Highest digit span recalled
+71,coding_score,cognitive,Coding (symbol to digit) score
+72,list_recall_score,cognitive,List recall score
+73,list_recognition_score,cognitive,List recognition score
+74,list_recognition_targets_score,cognitive,List targets recognition score
+75,list_recognition_distractors_score,cognitive,List distractors recognition score
+76,story_recall_score,cognitive,Story recall score
+77,figure_recall_drawing_score,cognitive,Figure recall drawing score
+78,figure_recall_placement_score,cognitive,Figure recall placement score
+79,figure_recall_total_score,cognitive,Figure recall total score
+80,ccsit_bsit,neurosensory,Brief smell identification test
+81,UPSIT_total_score,neurosensory,Total smell identification test
+82,anosmia_diagnosis_Mild Microsmia,neurosensory,Mild microsmia
+83,anosmia_diagnosis_Moderate Microsmia,neurosensory,Moderate microsmia
+84,anosmia_diagnosis_Normosmia,neurosensory,Normosmia
+85,anosmia_diagnosis_Severe Microsmia,neurosensory,Severe microsmia
+86,anosmia_diagnosis_Total Anosmia,neurosensory,Total anosmia
+87,Education_years,cognitive,Education years
+88,Height,demographics,Height
+89,Handedness_result,demographics,Handedness
+90,Handedness_left_total,demographics,Left hand score
+91,Handedness_right_total,demographics,Right hand score
+92,Handedness_right_left_difference,demographics,Left right hands difference
+93,Handedness_cumulative_total,demographics,Left right hands sum
+94,father_onset_age,comorbidities,Father's age at AD onset
+95,mother_onset_age,comorbidities,Mother's age at AD onset
+96,sibling_dx_ad_dementia_count,comorbidities,Number of siblings with AD
+97,sibling_onset_age_1,comorbidities,1st sibling's age at AD onset
+98,sibling_onset_age_2,comorbidities,2nd sibling's age at AD onset
+99,sibling_onset_age_3,comorbidities,3rd sibling's age at AD onset
+100,sibling_onset_age_4,comorbidities,4th sibling's age at AD onset
+101,sibling_onset_age_5,comorbidities,5th sibling's age at AD onset
+102,other_family_members_AD,comorbidities,Other family member has AD
+103,other_maternal_family_members_AD,comorbidities,Maternal family member has AD
+104,other_paternal_family_members_AD,comorbidities,Paternal family member has AD
+105,Candidate_Age_baseline,demographics,Age at recruitment
+106,hba1c_value_baseline,cardiovascular,Blood HbA1c levels at recruitment
+107,tsh_value_baseline,cardiovascular,Blood TSH levels at recruitment
+108,b12_value_baseline,cardiovascular,Blood B12 levels at recruitment
+109,total_cholesterol_value_baseline,cardiovascular,Total cholesterol at recruitment
+110,HDL_value_baseline,cardiovascular,HDL cholesterol at recruitment
+111,LDL_value_baseline,cardiovascular,LDL cholesterol at recruitment
+112,Systolic_blood_pressure_baseline,cardiovascular,Systolic BP at recruitment
+113,Diastolic_blood_pressure_baseline,cardiovascular,Diastolic BP at recruitment
+114,Pulse_baseline,cardiovascular,Pulse at recruitment
+115,Weight_baseline,cardiovascular,Weight at recruitment
+116,treatment_hypertension,cardiovascular,Hypertension
+117,treatment_hyperlipidemia,cardiovascular,Hyperlipidemia
+118,treatment_diabetes,cardiovascular,Diabetes
+119,past_cancer,comorbidities,Cancer
+120,past_depression,comorbidities,Depression
+121,past_osteoporosis,comorbidities,Osteoporosis
+122,past_migraine,comorbidities,Migraine
+123,past_asthma,comorbidities,Asthma
+124,past_atrial_fibrillation,comorbidities,Atrial fibrillation
+125,past_arthritis,comorbidities,Arthritis
+126,CAIDE_total_score,cardiovascular,CAIDE: total score
+127,CAIDE_age_subscore,cardiovascular,CAIDE: age subscore
+128,CAIDE_education_subscore,cardiovascular,CAIDE: education subscore
+129,CAIDE_sex_subscore,cardiovascular,CAIDE: sex subscore
+130,CAIDE_systolic_bp_subscore,cardiovascular,CAIDE: BP subscore
+131,CAIDE_BMI_subscore,cardiovascular,CAIDE: BMI subscore
+132,CAIDE_cholesterol_subscore,cardiovascular,CAIDE: cholesterol subscore
+133,CAIDE_activity_subscore,cardiovascular,CAIDE: activity subscore
+134,CAIDE_APOE4_subscore,cardiovascular,CAIDE: APOE4 subscore
+135,CDR_total_score,cognitive,Clinical dementia rating
+136,MOCA_total_score,cognitive,MoCA total score
+137,version_MOCA,cognitive,version MOCA
+138,1_trace,cognitive,MoCA visuospatial: tracing
+139,2_cube,cognitive,MoCA visuospatial: cube
+140,3_clock_contour,cognitive,MoCA visuospatial: clock contour
+141,3_clock_numbers,cognitive,MoCA visuospatial: clock numbers
+142,3_clock_hands,cognitive,MoCA visuospatial: clock hands
+143,visuospatial_score,cognitive,MoCA visuospatial: total score
+144,4_lion,cognitive,MoCA naming: lion
+145,5_rhino,cognitive,MoCA naming: rhino
+146,6_camel,cognitive,MoCA naming: camel
+147,naming_score,cognitive,MoCA naming: total score
+148,8_numbers_forward,cognitive,MoCA attention: numbers forward
+149,9_numbers_backward,cognitive,MoCA attention: numbers backward
+150,attention_numbers_score,cognitive,MoCA attention: numbers total score
+151,10_letters,cognitive,MoCA attention: letters
+152,11_subtraction_93,cognitive,MoCA attention: subtraction 93
+153,11_subtraction_86,cognitive,MoCA attention: subtraction 86
+154,11_subtraction_79,cognitive,MoCA attention: subtraction 79
+155,11_subtraction_72,cognitive,MoCA attention: subtraction 72
+156,11_subtraction_65,cognitive,MoCA attention: subtraction 65
+157,attention_subtractions_score,cognitive,MoCA attention: subtraction total score
+158,attention_total_score,cognitive,MoCA attention: total score
+159,12_repeat_1,cognitive,MoCA language: repeat 1
+160,12_repeat_2,cognitive,MoCA language: repeat 2
+161,language_repeat_score,cognitive,MoCA language: repeat score
+162,13_fluency,cognitive,MoCA language: fluency score
+163,language_total_score,cognitive,MoCA language: total score
+164,14_similarity_train_bicycle,cognitive,MoCA abtraction: pair 1
+165,14_similarity_watch_ruler,cognitive,MoCA abtraction: pair 2
+166,abstraction_score,cognitive,MoCA abtraction: total score
+167,15_face,cognitive,MoCA delayed recall: face
+168,15_velvet,cognitive,MoCA delayed recall: velvet
+169,15_church,cognitive,MoCA delayed recall: church
+170,15_daisy,cognitive,MoCA delayed recall: daisy
+171,15_red,cognitive,MoCA delayed recall: red
+172,delayed_recall_score,cognitive,MoCA delayed recall: total score
+173,16_date,cognitive,MoCA orientation: date
+174,16_month,cognitive,MoCA orientation: month
+175,16_day,cognitive,MoCA orientation: day
+176,orientation_score,cognitive,MoCA orientation: total score
+177,probable_MCI_yes,disease_progression,Probable MCI
+178,probable_MCI_visit_NAPFU12,disease_progression,MCI after 12 months (NAP)
+179,probable_MCI_visit_NAPFU24,disease_progression,MCI after 24 months (NAP)
+180,probable_MCI_visit_NAPFU36,disease_progression,MCI after 36 months (NAP)
+181,probable_MCI_visit_NAPFU48,disease_progression,MCI after 48 months (NAP)
+182,probable_MCI_visit_NAPFU60,disease_progression,MCI after 60 months (NAP)
+183,probable_MCI_visit_NAPFU72,disease_progression,MCI after 72 months (NAP)
+184,probable_MCI_visit_NAPFU84,disease_progression,MCI after 84 months (NAP)
+185,probable_MCI_visit_PREFU12,disease_progression,MCI after 12 months (PRE)
+186,probable_MCI_visit_PREFU24,disease_progression,MCI after 24 months (PRE)
+187,probable_MCI_visit_PREFU36,disease_progression,MCI after 36 months (PRE)
+188,probable_MCI_visit_PREFU48,disease_progression,MCI after 48 months (PRE)
+189,probable_MCI_visit_PREFU72,disease_progression,MCI after 72 months (PRE)
+190,probable_MCI_visit_PREFU84,disease_progression,MCI after 84 months (PRE)
+191,Mother_tongue_Arabic,demographics,1st language: Arabic
+192,Mother_tongue_English,demographics,1st language: English
+193,Mother_tongue_French,demographics,1st language: French
+194,Mother_tongue_Italian,demographics,1st language: Italian
+195,Mother_tongue_Other,demographics,1st language: Other
+196,Mother_tongue_Spanish,demographics,1st language: Spanish
+197,Test_language_English,demographics,Tested in English
+198,Test_language_French,demographics,Tested in French
+199,Ethnicity_african_american,demographics,African American
+200,Ethnicity_caucasian,demographics,Caucasian
+201,Ethnicity_hispanic,demographics,Hispanic
+202,Ethnicity_other,demographics,Other ethnicity
+203,Education_level_collegeclassic,demographics,College classic
+204,Education_level_elementary,demographics,Elementary study
+205,Education_level_highschool,demographics,Highschool degree
+206,Education_level_postgraduate,demographics,Postgraduate degree
+207,Education_level_some_collegeclassic,demographics,Some college study
+208,Education_level_some_highschool,demographics,Some highschool study
+209,Education_level_some_postgraduate,demographics,Some postgraduate study
+210,Education_level_some_undergraduate,demographics,Some undergraduate study
+211,Education_level_undergraduate,demographics,Undergraduate degree
+212,Work_by_category_Architecture and Engineering,demographics,Works in engineering
+213,"Work_by_category_Arts, Design, Entertainment, Sports and Media",demographics,Works in arts/media
+214,Work_by_category_Building and Grounds Cleaning and Maintenance,demographics,Works in building maintenance
+215,Work_by_category_Business and Financial,demographics,Works in fiance
+216,Work_by_category_Community and Social Service,demographics,Works in community services
+217,Work_by_category_Computer and Mathematical,demographics,Works in computers
+218,Work_by_category_Construction,demographics,Works in construction
+219,"Work_by_category_Education, Training and Library",demographics,Works in education
+220,"Work_by_category_Farming, Fishing and Forestry",demographics,Works in agriculture
+221,Work_by_category_Food Preparation and Service,demographics,Works in food
+222,Work_by_category_Healthcare,demographics,Works in healthcare
+223,"Work_by_category_Installation, Maintenance and Repair",demographics,Works in maintenance
+224,Work_by_category_Legal,demographics,Works in legal affairs
+225,"Work_by_category_Life, Physical and Social Science",demographics,Works in science
+226,Work_by_category_Management,demographics,Works in management
+227,Work_by_category_Office and Administrative Support,demographics,Works in administration
+228,Work_by_category_Personal Care,demographics,Works in personal care
+229,Work_by_category_Production,demographics,Works in production
+230,"Work_by_category_Protective Service (Police, Fire etc.)",demographics,Works in protective services
+231,Work_by_category_Sales,demographics,Works in sales
+232,Work_by_category_Transportation and Material Moving,demographics,Works in transportation
+233,Retirement_status_no,demographics,Not retired
+234,Retirement_status_semi_retired,demographics,Semi-retired
+235,Retirement_status_yes,demographics,Retired
+236,Handedness_interpretation_Ambidextrous,demographics,Ambidextrous
+237,Handedness_interpretation_Left-handed,demographics,Left-handed
+238,Handedness_interpretation_Right-handed,demographics,Right-handed
+239,BchE_K_variant_AA,genetics,BchE K variant AA
+240,BchE_K_variant_AG,genetics,BchE K variant AG
+241,BchE_K_variant_GG,genetics,BchE K variant GG
+242,BDNF_AA,genetics,BDNF MetMet
+243,BDNF_AG,genetics,BDNF ValMet
+244,BDNF_GG,genetics,BDNF ValVal
+245,HMGCR_Intron_M_AA,genetics,HMGCR Intron M AA
+246,HMGCR_Intron_M_GA,genetics,HMGCR Intron M GA
+247,HMGCR_Intron_M_GG,genetics,HMGCR Intron M GG
+248,TLR4_rs_4986790_AA,genetics,TLR4 rs4986790 AA
+249,TLR4_rs_4986790_AG,genetics,TLR4 rs4986790 AG
+250,PPP2r1A_rs_10406151_CC,genetics,PPP2r1A rs10406151 CC
+251,PPP2r1A_rs_10406151_CT,genetics,PPP2r1A rs10406151 CT
+252,PPP2r1A_rs_10406151_TT,genetics,PPP2r1A rs10406151 TT
+253,CDK5RAP2_rs10984186_AA,genetics,CDK5RAP2 rs10984186 AA
+254,CDK5RAP2_rs10984186_GA,genetics,CDK5RAP2 rs10984186 GA
+255,CDK5RAP2_rs10984186_GG,genetics,CDK5RAP2 rs10984186 GG
+256,statins,cardiovascular,Statins intake

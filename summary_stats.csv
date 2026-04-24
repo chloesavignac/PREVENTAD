@@ -24,8 +24,8 @@
 22,Right hear advantage,1.646,10.0,0.0,1.852,neurosensory
 23,Worst ear score,7.831,10.0,0.0,1.99,neurosensory
 24,Worst ear score -10dB,7.444,10.0,0.0,1.952,neurosensory
-25,Systolic BP,124.025,170.0,89.0,15.646,cardiovascular
-26,Diastolic BP,72.725,100.0,50.0,8.17,cardiovascular
+25,Systolic BP at follow-up,124.025,170.0,89.0,15.646,cardiovascular
+26,Diastolic BP at follow-up,72.725,100.0,50.0,8.17,cardiovascular
 27,Pulse,70.065,101.0,39.0,11.23,cardiovascular
 28,Weight,74.134,135.6,43.54,14.721,cardiovascular
 29,CSF tau levels,287.182,1279.866,79.53,147.119,disease_progression
@@ -178,19 +178,19 @@
 176,Severe microsmia,0.032,1.0,0.0,0.177,neurosensory
 177,Total anosmia,0.016,1.0,0.0,0.126,neurosensory
 178,Probable MCI,1.0,1.0,1.0,0.0,disease_progression
-179,MCI after 12 months,0.03,1.0,0.0,0.171,disease_progression
-180,MCI after 24 months,0.069,1.0,0.0,0.255,disease_progression
-181,MCI after 36 months,0.056,1.0,0.0,0.229,disease_progression
+179,MCI after 12 months (NAP),0.03,1.0,0.0,0.171,disease_progression
+180,MCI after 24 months (NAP),0.069,1.0,0.0,0.255,disease_progression
+181,MCI after 36 months (NAP),0.056,1.0,0.0,0.229,disease_progression
 182,MCI after 48 months (NAP),0.051,1.0,0.0,0.22,disease_progression
-183,MCI after 60 months,0.035,1.0,0.0,0.183,disease_progression
-184,MCI after 72 months,0.262,1.0,0.0,0.44,disease_progression
-185,MCI after 84 months,0.076,1.0,0.0,0.266,disease_progression
-186,MCI after 12 months,0.016,1.0,0.0,0.126,disease_progression
-187,MCI after 24 months,0.023,1.0,0.0,0.151,disease_progression
-188,MCI after 36 months,0.076,1.0,0.0,0.266,disease_progression
+183,MCI after 60 months (NAP),0.035,1.0,0.0,0.183,disease_progression
+184,MCI after 72 months (NAP),0.262,1.0,0.0,0.44,disease_progression
+185,MCI after 84 months (NAP),0.076,1.0,0.0,0.266,disease_progression
+186,MCI after 12 months (PRE),0.016,1.0,0.0,0.126,disease_progression
+187,MCI after 24 months (PRE),0.023,1.0,0.0,0.151,disease_progression
+188,MCI after 36 months (PRE),0.076,1.0,0.0,0.266,disease_progression
 189,MCI after 48 months (PRE),0.127,1.0,0.0,0.334,disease_progression
-190,MCI after 72 months,0.095,1.0,0.0,0.293,disease_progression
-191,MCI after 84 months,0.083,1.0,0.0,0.277,disease_progression
+190,MCI after 72 months (PRE),0.095,1.0,0.0,0.293,disease_progression
+191,MCI after 84 months (PRE),0.083,1.0,0.0,0.277,disease_progression
 192,1st language: Arabic,0.002,1.0,0.0,0.048,demographics
 193,1st language: English,0.086,1.0,0.0,0.28,demographics
 194,1st language: French,0.852,1.0,0.0,0.356,demographics
