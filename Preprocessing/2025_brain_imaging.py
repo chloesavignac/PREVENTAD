@@ -9,6 +9,7 @@ from nilearn.signal import clean
 
 print(joblib.__version__)
 print(sklearn.__version__)
+
 pop_cca = joblib.load('org_CCA_k25_lonely_full')
 
 # PREVENT-AD data 
