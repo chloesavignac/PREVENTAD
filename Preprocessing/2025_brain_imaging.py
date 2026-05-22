@@ -33,18 +33,11 @@ col_HC.remove('Whole_hippocampus_left')
 col_HC.remove('PSCID_left')
 col_DN = BL00_DN.columns
 
-# LOCATE FAIL HC SEGMENTATION
-for time_hc in [BL00_HC,FU12_HC,FU24_HC,FU36_HC,FU48_HC]:
-    print(np.unique(np.where(time_hc==0)[0]))
-# LOCATE FAIL DN SEGMENTATION
-for time_dn in [BL00_DN,FU12_DN,FU24_DN,FU36_DN,FU48_DN]:
-    print(np.unique(np.where(time_dn==0)[0]))
-
 def deconf(beh):
 
     age = StandardScaler().fit_transform(beh['Age_baseline_months'].values[:, np.newaxis])  # Age at recruitment
     age2 = age ** 2
-    sex = np.array(pd.get_dummies(beh['Sex']).values, dtype=np.int)  # Sex
+    sex = np.array(pd.get_dummies(beh['Sex']).values, dtype=np.int)  # Sex (self-reported)
     sex_x_age = sex * age
     sex_x_age2 = sex * age2
     
