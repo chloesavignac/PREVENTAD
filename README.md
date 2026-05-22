@@ -14,13 +14,13 @@ The code is organized into Jupyter notebooks that reproduce all **main figures**
 
 ## 📊 Figure-to-Notebook Mapping
 
-### 🔹 Figures 2–4 and Supplementary Materials
+### 🔹 Figures 2–4 and Supplementary Materials (non-imaging)
 
 - **Notebook**: `2025_Sex_Lineage_Analyses.ipynb`  
   Includes:
   - Core analyses for Figures 2–4  
-  - All Supplementary Figures  
-  - All Supplementary Tables
+  - Supplementary Figures S1-S12 
+  - Supplementary Tables S14-S19, S21
 
 ---
 
@@ -32,11 +32,11 @@ The code is organized into Jupyter notebooks that reproduce all **main figures**
 
 ---
 
-### 🔹 Figures 6–7
+### 🔹 Figures 6–7 (and S13)
 
 - **Notebooks**:
-  - `2025_CCA_projections.ipynb`  — Projects hippocampus–default network CCA signatures from UK Biobank to PREVENT-AD
   - `2025_Brain_Imaging_Analyses.ipynb`  — Assesses associations between intermediate phenotypes and CCA signatures in PREVENT-AD
+  - `2025_CCA_back_projections.ipynb`  — Back projects hippocampus–default network CCA signatures (from UK Biobank) to PREVENT-AD
 
 ---
 
