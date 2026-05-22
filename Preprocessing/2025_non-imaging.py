@@ -97,22 +97,22 @@ EN00_cleaned_merged.to_csv('EN00_03.28.23.csv')
 ##############################################################################################################################################
 
 # Longitudinal Data
-#retreiving longitudinal data
+# retreiving longitudinal data
 BL00 = pd.read_csv(os.path.abspath('/Users/chloesavignac/_bzdok_lab_notebooks/Prevent-AD/internal/non-imaging-data/BL00_outter_merge.csv'), index_col=0)
 FU12 = pd.read_csv(os.path.abspath('/Users/chloesavignac/_bzdok_lab_notebooks/Prevent-AD/internal/non-imaging-data/FU12_outter_merge.csv'), index_col=0)
 FU24 = pd.read_csv(os.path.abspath('/Users/chloesavignac/_bzdok_lab_notebooks/Prevent-AD/internal/non-imaging-data/FU24_outter_merge.csv'), index_col=0)
 FU36 = pd.read_csv(os.path.abspath('/Users/chloesavignac/_bzdok_lab_notebooks/Prevent-AD/internal/non-imaging-data/FU36_outter_merge.csv'), index_col=0)
 FU48 = pd.read_csv(os.path.abspath('/Users/chloesavignac/_bzdok_lab_notebooks/Prevent-AD/internal/non-imaging-data/FU48_outter_merge.csv'), index_col=0)
 
-#Canonical Variates
-#see notebook called "CCA_modes"
+# Canonical Variates
+# see brain imaging script
 BL00_CCA = pd.read_csv('BL00_CCA_modes.csv',index_col=0).rename(columns={'0':'PSCID'})
 FU12_CCA = pd.read_csv('FU12_CCA_modes.csv',index_col=0).rename(columns={'0':'PSCID'})
 FU24_CCA = pd.read_csv('FU24_CCA_modes.csv',index_col=0).rename(columns={'0':'PSCID'})
 FU36_CCA = pd.read_csv('FU36_CCA_modes.csv',index_col=0).rename(columns={'0':'PSCID'})
 FU48_CCA = pd.read_csv('FU48_CCA_modes.csv',index_col=0).rename(columns={'0':'PSCID'})
 
-#using participant IDs for merging datasets
+# using participant IDs for merging datasets
 BL00['PSCID'] = BL00.PSCID_RBANS
 FU12['PSCID'] = FU12.PSCID_RBANS
 FU24['PSCID'] = FU24.PSCID_RBANS
@@ -163,9 +163,10 @@ all_time_points = all_time_points.rename(columns={'Unnamed: 0':'Visit'})
 inds = pd.MultiIndex.from_frame(all_time_points.iloc[:,0:2])
 all_time_points = pd.DataFrame(np.array(all_time_points.iloc[:,2:]), index=inds, columns = all_time_points.iloc[:,2:].columns)
 
-#selecting all columns with age 
+# selecting all columns with age 
 age_cols = ['Candidate_Age','Candidate_Age_Aud_pro','Candidate_Age_BP_Pulse_Weight','Candidate_Age_CSF_Proteins','Candidate_Age_lab','Candidate_Age_Med_use','Candidate_Age_RBANS','Candidate_Age_Smell']
-## Use Candidate_Age_RBANS to establish time difference between visits (relative to initial visit)
+
+# Use Candidate_Age_RBANS to establish time difference between visits (relative to initial visit)
 differences = []
 ids = []
 
